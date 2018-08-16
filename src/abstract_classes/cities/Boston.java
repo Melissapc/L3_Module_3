@@ -10,7 +10,7 @@ public class Boston extends City {
 	@Override
 	double getAnnualTaxes() {
 		// TODO Auto-generated method stub
-		return 0;
+		return population*growthRate+population*0.50;
 	}
 
 }

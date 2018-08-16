@@ -10,7 +10,9 @@ public class SanDiego extends City{
 	@Override
 	double getAnnualTaxes() {
 		// TODO Auto-generated method stub
-		return 0;
+	return population*growthRate+ 1000000;
+	
+			
 	}
 
 }
